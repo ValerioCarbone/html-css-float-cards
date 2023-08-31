@@ -6,45 +6,48 @@
     font-family: 'Fredoka', sans-serif;;
 }
 
-img {
-max-width: 100%;
-max-height: 100%;
+* img {
+    max-width: 100%;
+    max-height: 100%;
 }
-
 
 
 header {
     font-weight: 800;
     color: #E53372;
-    font-size: 40px;
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
+    max-width: 1600px;
+    margin: 0 200px;
+    
 }
  
 .team-intro {
-    padding: 20px 0;
+    padding: 30px 0;
+    font-size: 20px;
+    text-align: center;
 }
 
-.debug{
-    border: 2px red solid;
-}
 
 .fl {
     float: left;
-    }
+}
 
 .card {
-    display: inline-block;
+    float: left;
     color: white;
     background-color: black;
-    width: calc(33.33% - 20px);
+    width: calc((100% - 60px) / 3 );
     margin-bottom: 20px;
-    height: 100px;
-    margin-left: 10px;
+    
+    margin-left: 30px;
+    box-shadow: 8px #000000;
+   
+
     
 }
 
@@ -57,4 +60,21 @@ header {
     display: table;
     clear: both;
 
+}
+
+.name{
+    font-size: 26px;
+    font-weight: ;
+}
+
+
+
+
+footer{
+    color: #CCCCC7;
+    background-color: #222222;
+    border-bottom: 2px solid white;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
 }
