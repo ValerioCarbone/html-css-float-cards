@@ -1,0 +1,45 @@
+/* RESET */
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;;
+}
+
+img {
+max-width: 100%;
+}
+
+
+
+header {
+    font-weight: 800;
+    color: #E53372;
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+.team-intro {
+    padding: 20px 0;
+}
+
+.debug{
+    border: 2px red solid;
+}
+
+.card {
+    float: left;
+    color: white;
+    background-color: black;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
