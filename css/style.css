@@ -50,8 +50,10 @@ header {
     margin-left: 30px;
     box-shadow: 1px 1px 1px 1px rgba(169, 160, 164, 0.45);
    
+}
 
-    
+.card-body{
+    padding: 10px 20px;
 }
 
 .card:nth-child(3n+1){
@@ -70,13 +72,14 @@ header {
     font-size: 15px;
     font-weight: 700;
     padding-top: 7px;
+    padding-left: 4px;
     
 
 }
 
 .role{
     display: block;
-    padding: 4px 0;
+    padding: 4px 4px;
     font-size: 12px;
 
 
@@ -86,6 +89,7 @@ header {
     display: block;
     color: #5CCBF2;
     font-size: 12px;
+    padding-left: 4px;
 
 }
     
