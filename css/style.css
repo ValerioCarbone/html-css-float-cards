@@ -7,8 +7,9 @@
 }
 
 * img {
-    max-width: 100%;
+    max-width: 25%;
     max-height: 100%;
+    margin-right: 10px;
 }
 
 
@@ -32,6 +33,9 @@ header {
     text-align: center;
 }
 
+/* .team-cards{
+    float: left;
+} */
 
 .fl {
     float: left;
@@ -43,9 +47,8 @@ header {
     background-color: black;
     width: calc((100% - 60px) / 3 );
     margin-bottom: 20px;
-    
     margin-left: 30px;
-    box-shadow: 8px #000000;
+    box-shadow: 1px 1px 1px 1px rgba(169, 160, 164, 0.45);
    
 
     
@@ -63,11 +66,29 @@ header {
 }
 
 .name{
-    font-size: 26px;
+    display: block;
+    font-size: 15px;
     font-weight: 700;
+    padding-top: 7px;
+    
+
 }
 
+.role{
+    display: block;
+    padding: 4px 0;
+    font-size: 12px;
 
+
+}
+
+.mail{
+    display: block;
+    color: #5CCBF2;
+    font-size: 12px;
+
+}
+    
 
 
 footer{
@@ -77,4 +98,8 @@ footer{
     height: 100px;
     text-align: center;
     padding-top: 10px;
+}
+
+* a {
+    text-decoration: none;
 }
